@@ -80,6 +80,19 @@ return {
     --   pattern = {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
-    -- }
+    -- },
+    -- vim.o.background = "light"
+    --
+    -- Comments for FileTypes
+    --https://github.com/numToStr/Comment.nvim#%EF%B8%8F-filetypes--languages
+    --Configure Conjure to use ;; double semi-colon characters for line comments
+    vim.api.nvim_create_autocmd("FileType", {
+      group = vim.api.nvim_create_augroup("comment_config", { clear = true }),
+      pattern = { "clojure", "fennel", "lisp" },
+      callback = function()
+        vim.bo.commentstring = ';; %s'
+      end,
+      desc = "Lisp style line comment",
+    })
   end,
 }
