@@ -11,6 +11,9 @@ return {
   { import = "astrocommunity.git.octo" },
   { import = "astrocommunity.git.openingh" },
 
+  -- Project
+  { import = "astrocommunity.project.project-nvim" }, -- very nice
+
   -- Themes
   { import = "astrocommunity.colorscheme.everforest" },        -- very nice
 }
