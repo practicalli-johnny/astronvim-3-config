@@ -15,5 +15,7 @@ return {
   { import = "astrocommunity.project.project-nvim" }, -- very nice
 
   -- Themes
+  { import = "astrocommunity.colorscheme.nightfox" },          -- very nice
   { import = "astrocommunity.colorscheme.everforest" },        -- very nice
+  { import = "astrocommunity.colorscheme.kanagawa" },          -- very nice
 }
