@@ -9,4 +9,10 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "mg979/vim-visual-multi",
+    lazy = false,
+    -- lazy load on key binding
+    -- keys = "gm",
+  },
 }
