@@ -7,23 +7,8 @@ return {
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
-  { import = "astrocommunity.git.neogit" },
-  { import = "astrocommunity.git.octo" },
-  -- Version Control
-  { import = "astrocommunity.git.openingh" },
-  { import = "astrocommunity.git.neogit" },
+
   {
-    "TimUntersberger/neogit",
-    dependencies = {
-      { "nvim-lua/plenary.nvim", "sindrets/diffview.nvim" },
-    },
-    opts = {
-      disable_commit_confirmation = true,
-      use_magit_keybindings = true,
-      integrations = {
-        diffview = true,
-      },
-    },
     keys = {
       { "<leader>gs", "<cmd>Neogit<cr>", desc = "Status (Neogit)" }, -- "<leader>gn", desc = "Neogit", -- Neogit menu defined in mappings.lua
     },

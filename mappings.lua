@@ -23,6 +23,7 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- Git Menu
     -- Menu mappings
+    ["<leader>gh"] = false,                 -- disable Reset Git Hunk mapping
     ["<leader>gn"] = { name = " Neogit" }, -- Neogit menu
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
