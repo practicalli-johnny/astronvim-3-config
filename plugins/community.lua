@@ -28,6 +28,10 @@ return {
       { "<leader>gs", "<cmd>Neogit<cr>", desc = "Status (Neogit)" }, -- "<leader>gn", desc = "Neogit", -- Neogit menu defined in mappings.lua
     },
   },
+  -- { import = "astrocommunity.git.octo" },
+  -- community import fails to find repo
+  -- not happy with community key binding choice and separate config does not seem to override
+
 
   -- Project
   { import = "astrocommunity.project.project-nvim" }, -- very nice
