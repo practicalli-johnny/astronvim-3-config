@@ -25,6 +25,14 @@ return {
   --
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
   {
+    "max397574/better-escape.nvim",
+    event = "InsertCharPre",
+    opts = {
+      timeout = 300,
+      mapping = { "fd" },
+    },
+  },
+  {
     "L3MON4D3/LuaSnip",
     config = function(plugin, opts)
       -- include the default astronvim config that calls the setup call
