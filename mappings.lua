@@ -21,6 +21,9 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    -- Git Menu
+    -- Menu mappings
+    ["<leader>gn"] = { name = " Neogit" }, -- Neogit menu
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
