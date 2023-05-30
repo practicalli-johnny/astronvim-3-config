@@ -3,12 +3,16 @@
 -- Please use this mappings table to set keyboard mapping since this is the
 -- lower level configuration and more robust one. (which-key will
 -- automatically pick-up stored data by this setting.)
+
+-- Icons can be copied from https://www.nerdfonts.com/cheat-sheet
+
 return {
   -- first key is the mode
   n = {
     -- second key is the lefthand side of the map
-    -- mappings seen under group name "Buffer"
     ["<leader><tab>"] = { "<cmd>b#<cr>", desc = "Last tab" },
+
+    -- mappings seen under group name "Buffer"
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
       function()
