@@ -1,14 +1,25 @@
 local octo_leader = "<leader>gh"
 
 return {
+  -- Neogit Git Client
+  { import = "astrocommunity.git.neogit" },
   {
+    "TimUntersberger/neogit",
     dependencies = {
-      "nvim-lua/plenary.nvim",
-      "nvim-telescope/telescope.nvim",
-      "nvim-tree/nvim-web-devicons",
+      { "nvim-lua/plenary.nvim", "sindrets/diffview.nvim" },
     },
     opts = {
-      use_diagnostic_signs = true,
+      disable_commit_confirmation = true,
+      use_magit_keybindings = true,
+      integrations = {
+        diffview = true,
+      },
+    },
+    keys = {
+      { "<leader>gn", desc = "Neogit" }, -- Neogit menu also defined in mappings.lua
+      { "<leader>gs", "<cmd>Neogit<cr>", desc = "Status (Neogit)" },
+    },
+  },
 
   -- Octo for GitHub Issues & Pull Request
   {
