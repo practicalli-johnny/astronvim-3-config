@@ -1,6 +1,12 @@
 local octo_leader = "<leader>gh"
 
 return {
+  -- Add the community repository of plugin specifications
+  "AstroNvim/astrocommunity",
+
+  -- Open files in GitHub Web UI
+  { import = "astrocommunity.git.openingh" },
+
   -- Neogit Git Client
   { import = "astrocommunity.git.neogit" },
   {
