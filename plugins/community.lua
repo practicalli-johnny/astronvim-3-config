@@ -17,6 +17,9 @@ return {
   -- community import fails to find repo
   -- not happy with community key binding choice and separate config does not seem to override
 
+  -- Packs
+  -- Treesitter: clojure , Lsp: clojure-lsp, Lint/format:
+  { import = "astrocommunity.pack.clojure" },
 
   -- Project
   { import = "astrocommunity.project.project-nvim" }, -- very nice
