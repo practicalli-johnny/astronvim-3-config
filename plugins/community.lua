@@ -22,6 +22,8 @@ return {
   { import = "astrocommunity.pack.clojure" },
   -- Treesitter: dockerfile , Lsp: dockerls & docker_compose_language_service, Lint/format: hadolint
   { import = "astrocommunity.pack.docker" },
+  -- Treesitter: json & jsonc, Lsp: jsonls, Lint/format: stylua
+  { import = "astrocommunity.pack.json" },
 
   -- Project
   { import = "astrocommunity.project.project-nvim" }, -- very nice
