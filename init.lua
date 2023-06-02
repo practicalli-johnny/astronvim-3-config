@@ -18,10 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  -- colorscheme = "astrodark",
-  -- colorscheme = "dayfox",
   colorscheme = "everforest",
-  -- colorscheme = "kanagawa",  -- nice
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -54,6 +51,9 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
+      -- "clojure-lsp"
+      -- Error when enabling clojure-lsp:
+      -- [lspconfig] Cannot access configuration for clojure-lsp. Ensure this server is listed in `server_configurations.md` or added as a custom server.
     },
   },
 
@@ -71,6 +71,7 @@ return {
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
+
   polish = function()
     -- Set up custom filetypes
     -- vim.filetype.add {
@@ -89,13 +90,11 @@ return {
     -- Comments for FileTypes
     --https://github.com/numToStr/Comment.nvim#%EF%B8%8F-filetypes--languages
     --Configure Conjure to use ;; double semi-colon characters for line comments
-    vim.api.nvim_create_autocmd("FileType", {
-      group = vim.api.nvim_create_augroup("comment_config", { clear = true }),
-      pattern = { "clojure", "fennel", "lisp" },
-      callback = function()
-        vim.bo.commentstring = ';; %s'
-      end,
-      desc = "Lisp style line comment",
-    })
+    -- vim.api.nvim_create_autocmd("FileType", {
+    --   group = vim.api.nvim_create_augroup("comment_config", { clear = true }),
+    --   pattern = { "clojure", "fennel", "lisp" },
+    --   callback = function() vim.bo.commentstring = ";; %s" end,
+    --   desc = "Lisp style line comment",
+    -- })
   end,
 }
