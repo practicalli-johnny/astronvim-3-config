@@ -4,6 +4,13 @@ return {
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
+  -- Test changes in local copy of astrocommunity (fork of project)
+  -- uses ~/project/astrocommunity
+  -- {
+  --   "AstroNvim/astrocommunity",
+  --   dev = true,
+  -- },
+
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
 
   {
