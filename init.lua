@@ -39,7 +39,7 @@ return {
           -- "go",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
-          -- "python",
+          "lua",
         },
       },
       disabled = { -- disable formatting capabilities for the listed language servers

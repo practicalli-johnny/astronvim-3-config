@@ -24,6 +24,8 @@ return {
   { import = "astrocommunity.pack.docker" },
   -- Treesitter: json & jsonc, Lsp: jsonls, Lint/format: stylua
   { import = "astrocommunity.pack.json" },
+  -- Treesitter: lua, Lsp: lua_ls, Lint/format: stylua
+  { import = "astrocommunity.pack.lua" },
 
   -- Project
   { import = "astrocommunity.project.project-nvim" }, -- very nice
