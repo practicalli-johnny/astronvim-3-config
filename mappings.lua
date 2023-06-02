@@ -25,6 +25,10 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+
+    -- Editing
+    ["zZ"] = { "<cmd>ZenMode<cr>", desc = " Zen mode" },
+
     -- Git Menu
     -- Menu mappings
     ["<leader>gh"] = false,                 -- disable Reset Git Hunk mapping

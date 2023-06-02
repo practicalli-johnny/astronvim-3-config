@@ -19,7 +19,24 @@ return {
   { import = "astrocommunity.editing-support.nvim-regexplainer" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
 
+  -- Distraction free editing
+  { import = "astrocommunity.editing-support.zen-mode-nvim" },
   {
+    "folke/zen-mode.nvim",
+    opts = {
+      -- override default configuration
+      -- https://github.com/folke/zen-mode.nvim#%EF%B8%8F-configuration
+      plugins = {
+        options = {
+          enabled = true,
+        },
+        kitty = {
+          enabled = true,
+          font = "+4", -- font size increment
+          -- font = "20", -- font size increment
+          -- font_size = "20", -- font size increment
+        },
+      },
     },
   },
 
