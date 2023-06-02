@@ -27,6 +27,12 @@ return {
   -- Treesitter: lua, Lsp: lua_ls, Lint/format: stylua
   { import = "astrocommunity.pack.lua" },
 
+  -- Pack not used as prettierd too agressive with format
+  -- Treesitter: markdown & markdown_inline, Lsp: marksman, Lint/format: prettierd
+  -- { import = "astrocommunity.pack.markdown" },
+  -- Treesitter: markdown & markdown_inline, Lsp: marksman, Lint/format: prettierd
+  -- { import = "astrocommunity.pack.yaml" },
+
   -- Project
   { import = "astrocommunity.project.project-nvim" }, -- very nice
 
