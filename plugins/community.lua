@@ -61,4 +61,7 @@ return {
 
   -- Themes
   -- defined in themes.lua
+  -- Utility
+  { import = "astrocommunity.utility.noice-nvim" }, -- switch between projects
+
 }
