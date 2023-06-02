@@ -1,8 +1,8 @@
 -- Mapping data with "desc" stored directly by vim.keymap.set().
+-- Register which-key menu name with `name` and without command
 --
--- Please use this mappings table to set keyboard mapping since this is the
--- lower level configuration and more robust one. (which-key will
--- automatically pick-up stored data by this setting.)
+-- This mappings table is the lower level configuration and more robust approach
+-- which-key will automatically pick-up stored data by this setting
 
 -- Icons can be copied from https://www.nerdfonts.com/cheat-sheet
 
@@ -13,25 +13,26 @@ return {
     ["<leader><tab>"] = { "<cmd>b#<cr>", desc = "Last tab" },
 
     -- mappings seen under group name "Buffer"
+    ["<leader>b"] = { name = "Buffers" },
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
+    -- ["<leader>bD"] = { "<cmd>Bdelete<cr>", desc = "Delete buffer" },
     ["<leader>bD"] = {
       function()
-        require("astronvim.utils.status").heirline.buffer_picker(function(bufnr)
-          require("astronvim.utils.buffer").close(bufnr)
-        end)
+        require("astronvim.utils.status").heirline.buffer_picker( function(bufnr)
+          require("astronvim.utils.buffer").close(bufnr) end
+        )
       end,
       desc = "Pick to close",
     },
-    -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
-    ["<leader>b"] = { name = "Buffers" },
+    ["<leader>j"] = { name = "Jump" },
 
     -- Editing
     ["zZ"] = { "<cmd>ZenMode<cr>", desc = " Zen mode" },
 
     -- Git Menu
     -- Menu mappings
-    ["<leader>gh"] = false,                 -- disable Reset Git Hunk mapping
+    ["<leader>gh"] = false, -- disable Reset Git Hunk mapping, used for Octo
     ["<leader>gn"] = { name = " Neogit" }, -- Neogit menu
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
