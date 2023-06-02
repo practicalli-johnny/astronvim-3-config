@@ -1,8 +1,9 @@
+-- AstroCommunity plugins
+-- https://github.com/AstroNvim/astrocommunity
+
 return {
   -- Add the community repository of plugin specifications
   "AstroNvim/astrocommunity",
-  -- example of imporing a plugin, comment out to use it or add your own
-  -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- Test changes in local copy of astrocommunity (fork of project)
   -- uses ~/project/astrocommunity
@@ -19,13 +20,8 @@ return {
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
 
   {
-    keys = {
-      { "<leader>gs", "<cmd>Neogit<cr>", desc = "Status (Neogit)" }, -- "<leader>gn", desc = "Neogit", -- Neogit menu defined in mappings.lua
     },
   },
-  -- { import = "astrocommunity.git.octo" },
-  -- community import fails to find repo
-  -- not happy with community key binding choice and separate config does not seem to override
 
   -- Packs
   -- Treesitter: clojure , Lsp: clojure-lsp, Lint/format:
@@ -44,7 +40,7 @@ return {
   -- { import = "astrocommunity.pack.yaml" },
 
   -- Project
-  { import = "astrocommunity.project.project-nvim" }, -- very nice
+  { import = "astrocommunity.project.project-nvim" }, -- switch between projects
 
   -- Themes
   -- defined in themes.lua
