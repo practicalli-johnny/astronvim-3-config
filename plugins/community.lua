@@ -33,8 +33,6 @@ return {
         kitty = {
           enabled = true,
           font = "+4", -- font size increment
-          -- font = "20", -- font size increment
-          -- font_size = "20", -- font size increment
         },
       },
     },
