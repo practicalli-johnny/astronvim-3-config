@@ -5,7 +5,7 @@ return {
   "AstroNvim/astrocommunity",
 
   -- Open files in GitHub Web UI
-  { import = "astrocommunity.git.openingh" },
+  { import = "astrocommunity.git.openingh-nvim" },
 
   -- Neogit Git Client
   { import = "astrocommunity.git.neogit" },
