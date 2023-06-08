@@ -27,6 +27,9 @@ return {
     -- this is useful for naming menus
     ["<leader>j"] = { name = "Jump" },
 
+    -- Projects
+    ["<leader>fp"] = { "<cmd>Telescope projects<cr>", desc = "Projects" },
+
     -- Editing
     ["zZ"] = { "<cmd>ZenMode<cr>", desc = " Zen mode" },
 
