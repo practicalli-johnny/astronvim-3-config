@@ -12,6 +12,10 @@ return {
   --   dev = true,
   -- },
 
+  -- Motion plugins
+  -- :help nvim-surround.usage.
+  { import = "astrocommunity.motion.nvim-surround" },
+
 
   -- Editor support
   -- Rainbow parens
