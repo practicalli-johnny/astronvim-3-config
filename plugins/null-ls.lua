@@ -11,6 +11,7 @@ return {
       -- Set a formatter
       -- null_ls.builtins.formatting.stylua,
       -- null_ls.builtins.formatting.prettier,
+      null_ls.builtins.formatting.cljstyle,
 
       null_ls.builtins.formatting.markdownlint.with {
         -- pass arguments to modify/override the null-ls builtin configuration
