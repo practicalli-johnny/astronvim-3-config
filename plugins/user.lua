@@ -15,4 +15,9 @@ return {
     -- lazy load on key binding
     -- keys = "gm",
   },
+  {
+    -- Format markdown tables
+    -- https://github.com/allen-mack/nvim-table-md
+    "allen-mack/nvim-table-md",
+  }
 }

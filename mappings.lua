@@ -31,6 +31,19 @@ return {
     -- this is useful for naming menus
     ["<leader>j"] = { name = "Jump" },
 
+
+    -- Markdown
+    ["<leader>m"] = { name = "Markdown" },
+    ["<Leader>mf"] = { ":lua require(\"tablemd\").format()<cr>", desc = "Markdown" },
+    ["<Leader>mc"] = { ":lua require(\"tablemd\").insertColumn(false)<cr>", desc = "Markdown" },
+    ["<Leader>md"] = { ":lua require(\"tablemd\").deleteColumn()<cr>", desc = "Markdown" },
+    ["<Leader>mr"] = { ":lua require(\"tablemd\").insertRow(false)<cr>", desc = "Markdown" },
+    ["<Leader>mR"] = { ":lua require(\"tablemd\").insertRow(true)<cr>", desc = "Markdown" },
+    ["<Leader>mj"] = { ":lua require(\"tablemd\").alignColumn(\"left\")<cr>", desc = "Markdown" },
+    ["<Leader>mk"] = { ":lua require(\"tablemd\").alignColumn(\"center\")<cr>", desc = "Markdown" },
+    ["<Leader>ml"] = { ":lua require(\"tablemd\").alignColumn(\"right\")<cr>", desc = "Markdown" },
+
+
     -- Projects
     ["<leader>fp"] = { "<cmd>Telescope projects<cr>", desc = "Projects" },
 
