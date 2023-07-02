@@ -10,7 +10,7 @@ return {
   -- Neogit Git Client
   { import = "astrocommunity.git.neogit" },
   {
-    "TimUntersberger/neogit",
+    "NeogitOrg/neogit",
     dependencies = {
       { "nvim-lua/plenary.nvim", "sindrets/diffview.nvim" },
     },
