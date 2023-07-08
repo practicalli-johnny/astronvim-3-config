@@ -11,7 +11,8 @@ return {
   -- },
   {
     "mg979/vim-visual-multi",
-    lazy = false,
+      event = "User AstroFile",
+    -- lazy = false,
     -- lazy load on key binding
     -- keys = "gm",
   },
