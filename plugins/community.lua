@@ -28,6 +28,12 @@ return {
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.editing-support.nvim-regexplainer" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  {
+    "folke/todo-comments.nvim",
+    opts = {
+      sign_priority = 5, -- higher sign display priority
+    }
+  },
 
   -- ----------------------------------------------
   -- Distraction free editing
