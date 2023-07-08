@@ -80,7 +80,8 @@ return {
 
   -- ----------------------------------------------
   -- Utility
-  { import = "astrocommunity.utility.noice-nvim" }, -- switch between projects
+  -- rich command prompt
+  { import = "astrocommunity.utility.noice-nvim" }, 
 
   -- Version Control
   -- defined in plugins/git.lua
