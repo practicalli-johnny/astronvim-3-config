@@ -84,4 +84,15 @@ return {
   --     }, { mode = "n", prefix = "<leader>" })
   --   end,
   -- },
+  -- Configure notify popups
+  {
+    "rcarriga/nvim-notify",
+    opts = {
+      top_down = false,
+      timeout = 1000,
+      -- log level - hide file write messages
+      level = 3,  
+      -- background_color = "#000000",   
+    },
+  },
 }
