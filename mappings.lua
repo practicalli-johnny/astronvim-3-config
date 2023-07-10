@@ -61,4 +61,13 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+
+  v = {
+
+    -- Use panadoc to format a visually selected table
+    -- https://jcuenod.github.io/bibletech/2023/03/14/formatting-md-tables-in-neovim/
+    ["<leader>mp"] = { "!pandoc -t markdown-simple_tables<CR>", silent = true, desc = "Align selected md table using pandoc" },
+
+  },
+
 }
