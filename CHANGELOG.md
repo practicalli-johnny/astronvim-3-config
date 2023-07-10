@@ -1,4 +1,6 @@
 # Unreleased
+## Added
+- community: nvim-jqx plugin to view JSON files in neovim
 
 # 2023-07-08
 ## Changed
