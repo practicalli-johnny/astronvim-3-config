@@ -1,6 +1,8 @@
 # Unreleased
 ## Added
 - community: nvim-jqx plugin to view JSON files in neovim
+- community: rest-nvim plugin to call REST endpoints from neovim
+
 
 # 2023-07-08
 ## Changed

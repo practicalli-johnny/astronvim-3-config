@@ -82,6 +82,7 @@ return {
   -- ----------------------------------------------
   -- Programing Language support
   { import = "astrocommunity.programming-language-support.nvim-jqx" },
+  { import = "astrocommunity.programming-language-support.rest-nvim" },
   -- ----------------------------------------------
 
   -- ----------------------------------------------

@@ -10,6 +10,7 @@ return {
       "graphql",
       "http",
       "jq",
+      "json",
       "make",
       "markdown",
       "markdown_inline",
