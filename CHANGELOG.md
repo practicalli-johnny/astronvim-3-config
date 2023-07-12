@@ -5,6 +5,7 @@
 - community: nvim-jqx plugin to view JSON files in neovim
 - community: rest-nvim plugin to call REST endpoints from neovim
 - mapping: `SPC g H` key mapping for GitSigns stage hunk (orginally mapped to `SPC g s` in AstroNvim)
+- snippets: luasnip vscode-style snippets for Clojure and Markdown
 
 
 # 2023-07-08
