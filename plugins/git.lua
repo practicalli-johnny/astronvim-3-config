@@ -23,7 +23,7 @@ return {
       },
     },
     keys = {
-      { "<leader>gn", desc = "Neogit" }, -- Neogit menu also defined in mappings.lua
+      -- Neogit SPC gn sub-menu name defined in mappings.lua
       { "<leader>gs", "<cmd>Neogit<cr>", desc = "Status (Neogit)" },
     },
   },

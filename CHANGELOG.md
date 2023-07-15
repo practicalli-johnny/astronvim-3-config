@@ -1,5 +1,7 @@
 # Unreleased
 
+## Added
+- git: remove neogit SPC gn key binding (defined in `mappings.lua`)
 
 # 2023-07-12
 
