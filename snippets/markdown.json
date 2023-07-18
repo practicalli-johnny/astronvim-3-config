@@ -1,27 +1,37 @@
 {
   "mkdocs button tag": {
     "prefix": "mkdocs-button",
-    "body": ["{.md-button} ${0}"],
+    "body": [
+      "{.md-button} ${0}"
+    ],
     "description": "MkDocs Button tag"
   },
   "mkdocs button target tag": {
     "prefix": "mkdocs-button-target-tag",
-    "body": ["{target=_blank .md-button} ${0}"],
+    "body": [
+      "{target=_blank .md-button} ${0}"
+    ],
     "description": "MkDocs Button target blank tag"
   },
   "mkdocs button form": {
     "prefix": "mkdocs-button-form",
-    "body": ["[${1:link text}](${2:URL}){target=_blank .md-button} ${0}"],
+    "body": [
+      "[${1:link text}](${2:URL}){target=_blank .md-button} ${0}"
+    ],
     "description": "MkDocs Button form"
   },
   "mkdocs link target blank tag": {
     "prefix": "mkdocs-link-target-blank-tag",
-    "body": ["{target=_blank} ${0}"],
+    "body": [
+      "{target=_blank} ${0}"
+    ],
     "description": "MkDocs Link target blank tag"
   },
   "mkdocs link form": {
     "prefix": "mkdocs-link-form",
-    "body": ["[${1:link-text}](${2:URL}){target=_blank .md-button} ${0}"],
+    "body": [
+      "[${1:link-text}](${2:URL}){target=_blank .md-button} ${0}"
+    ],
     "description": "MkDocs Link form"
   },
   "mkdocs youtube embed": {
@@ -33,18 +43,25 @@
   },
   "mkdocs icon book": {
     "prefix": "mkdocs-icon-book",
-    "body": [":fontawesome-solid-book-open:${0}"],
-    "description": "MkDocs link target blank"
+    "body": [
+      ":fontawesome-solid-book-open:${0}"
+    ],
+    "description": "MkDocs link book icon"
   },
   "mkdocs icon github": {
     "prefix": "mkdocs-icon-github",
-    "body": [":fontawesome-brands-github:${0}"],
-    "description": "MkDocs link target blank"
+    "body": [
+      ":fontawesome-brands-github:${0}"
+    ],
+    "description": "MkDocs link github icon"
   },
   "mkdocs icon globe": {
     "prefix": "mkdocs-icon-globe",
-    "body": [":globe_with_meridians:${0}"],
-    "description": "MkDocs link target blank"
+    "body": [
+      ":globe_with_meridians:${0}"
+    ],
+    "description": "MkDocs link globe icon"
+  },
   },
   "mkdocs image github base url": {
     "prefix": "mkdocs-image-github-base-url",
