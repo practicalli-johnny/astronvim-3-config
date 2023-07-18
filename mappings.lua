@@ -18,7 +18,10 @@ return {
 
     -- mappings seen under group name "Buffer"
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>bt"] = { name = "Tabs" },
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
+    ["<leader>btn"] = { "<cmd>tabNext<cr>", desc = "Next tab" },
+    ["<leader>bt<tab>"] = { "<cmd>tabprevious<cr>", desc = "Previous tab" },
     -- ["<leader>bD"] = { "<cmd>Bdelete<cr>", desc = "Delete buffer" },
     ["<leader>bD"] = {
       function()
@@ -28,6 +31,8 @@ return {
       end,
       desc = "Pick to close",
     },
+
+
     -- this is useful for naming menus
     ["<leader>j"] = { name = "Jump" },
 
