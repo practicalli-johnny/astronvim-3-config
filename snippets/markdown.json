@@ -62,7 +62,7 @@
     ],
     "description": "MkDocs link globe icon"
   },
-  "mkdocs icon globe": {
+  "mkdocs icon youtube": {
     "prefix": "mkdocs-icon-youtube",
     "body": [
       ":fontawesome-brands-youtube:${0}"
