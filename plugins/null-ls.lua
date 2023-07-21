@@ -16,7 +16,7 @@ return {
         -- pass arguments to modify/override the null-ls builtin configuration
         extra_args = {
           "--config ",
-          "~/.config/astro-config/tool-config/markdownlint.yaml",
+          "$HOME/.config/astro-config/tool-config/markdownlint.yaml",
         },
       },
     }
