@@ -2,6 +2,7 @@
 
 ## Added
 - git: remove neogit SPC gn key binding (defined in `mappings.lua`)
+- null-ls: use central markdownlint rules file in astronvim-config directory
 
 # 2023-07-12
 
