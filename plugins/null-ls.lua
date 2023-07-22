@@ -15,8 +15,8 @@ return {
       null_ls.builtins.formatting.markdownlint.with {
         -- pass arguments to modify/override the null-ls builtin configuration
         extra_args = {
-          "--config ",
-          "$HOME/.config/astro-config/tool-config/markdownlint.yaml",
+          "--config-path",
+          vim.fn.expand("~/.config/astro-config/tool-config/markdownlint.yaml")
         },
       },
     }
