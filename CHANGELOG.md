@@ -6,7 +6,7 @@
 - git: remove neogit SPC gn key binding (defined in `mappings.lua`)
 - null-ls: use central markdownlint rules file in astronvim-config directory
 - init: enable lua & prettier lsp tools
-
+- telescope: file_browser extension and `SPC f e` mapping
 
 # 2023-07-12
 

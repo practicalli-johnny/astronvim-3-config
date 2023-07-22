@@ -32,6 +32,7 @@ return {
       desc = "Pick to close",
     },
 
+    ["<leader>fe"] = { "<cmd>Telescope file_browser<cr>", desc = "Explorer" },
 
     -- this is useful for naming menus
     ["<leader>j"] = { name = "Jump" },
