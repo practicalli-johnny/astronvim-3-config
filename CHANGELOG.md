@@ -3,6 +3,7 @@
 # 2023-07-21
 ## Added
 - community: "astrocommunity.color.ccc-nvim" color picker and highlighter plugin 
+- git: notifications test for noice-nvim rather than nvim-notify from neovim plugin
 
 ## Added
 - git: remove neogit SPC gn key binding (defined in `mappings.lua`)

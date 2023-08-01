@@ -1,4 +1,5 @@
 local octo_leader = "<leader>gh"
+local utils = require "astronvim.utils"
 
 return {
   -- Add the community repository of plugin specifications
@@ -17,6 +18,8 @@ return {
     },
     opts = {
       disable_commit_confirmation = true,
+      -- disable_builtin_notifications = false,
+      disable_builtin_notifications = utils.is_available "noice-nvim",
       use_magit_keybindings = true,
       integrations = {
         diffview = true,
