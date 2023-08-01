@@ -1,6 +1,8 @@
 # Unreleased
 
 # 2023-07-21
+## Added
+- community: "astrocommunity.color.ccc-nvim" color picker and highlighter plugin 
 
 ## Added
 - git: remove neogit SPC gn key binding (defined in `mappings.lua`)

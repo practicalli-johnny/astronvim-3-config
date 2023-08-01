@@ -17,6 +17,13 @@ return {
   -- ----------------------------------------------
 
   -- ----------------------------------------------
+  -- color
+  -- color picker and highlighter
+  { import = "astrocommunity.color.ccc-nvim" },
+
+  -- ----------------------------------------------
+
+  -- ----------------------------------------------
   -- Motion plugins
   -- :help nvim-surround.usage.
   { import = "astrocommunity.motion.nvim-surround" },
