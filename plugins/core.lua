@@ -90,9 +90,7 @@ return {
     opts = {
       top_down = false,
       timeout = 1000,
-      -- log level - hide file write messages
-      level = 3,  
-      -- background_color = "#000000",   
+      -- log level - 3 hide file write messages
     },
   },
 }
