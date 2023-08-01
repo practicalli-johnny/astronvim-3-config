@@ -4,6 +4,7 @@
 ## Added
 - community: "astrocommunity.color.ccc-nvim" color picker and highlighter plugin 
 - git: notifications test for noice-nvim rather than nvim-notify from neovim plugin
+- community: add nvim-flash to highlighted jump points for f F t T
 
 ## Added
 - git: remove neogit SPC gn key binding (defined in `mappings.lua`)

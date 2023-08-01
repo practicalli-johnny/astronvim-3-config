@@ -64,6 +64,12 @@ return {
   -- ----------------------------------------------
 
   -- ----------------------------------------------
+  -- Motion
+  -- Navigate with search labels
+  { import = "astrocommunity.motion.flash-nvim" },
+  -- ----------------------------------------------
+
+  -- ----------------------------------------------
   -- Packs
   -- Treesitter: clojure , Lsp: clojure-lsp, Lint/format:
   { import = "astrocommunity.pack.clojure" },
