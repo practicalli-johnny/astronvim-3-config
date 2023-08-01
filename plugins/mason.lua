@@ -9,7 +9,7 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         -- `community.lua` ensures language servers via their language packs
         "marksman", -- Markdown structure (also in markdown pack)
-        "yamlls",
+        -- "yamlls",
       })
     end,
   },
