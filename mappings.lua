@@ -31,7 +31,8 @@ return {
       end,
       desc = "Pick to close",
     },
-
+    -- Find Menu
+    -- browse via directory structure, create and modify paths
     ["<leader>fe"] = { "<cmd>Telescope file_browser<cr>", desc = "Explorer" },
 
     -- this is useful for naming menus
