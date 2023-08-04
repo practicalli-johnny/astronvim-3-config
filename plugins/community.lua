@@ -66,7 +66,7 @@ return {
   -- ----------------------------------------------
   -- Motion
   -- Navigate with search labels
-  { import = "astrocommunity.motion.flash-nvim" },
+  -- { import = "astrocommunity.motion.flash-nvim" }, -- overrides S surround in visual state
   -- ----------------------------------------------
 
   -- ----------------------------------------------
