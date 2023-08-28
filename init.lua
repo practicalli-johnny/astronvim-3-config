@@ -52,9 +52,10 @@ return {
       -- end
     },
     -- enable servers that you already have installed without mason
+    -- https://github.com/williamboman/mason-lspconfig.nvim/blob/main/doc/server-mapping.md
     servers = {
       -- "pyright"
-      -- "clojure-lsp"
+      -- "clojure_lsp"
       -- Error when enabling clojure-lsp:
       -- [lspconfig] Cannot access configuration for clojure-lsp. Ensure this server is listed in `server_configurations.md` or added as a custom server.
     },
