@@ -16,7 +16,7 @@ return {
         -- pass arguments to modify/override the null-ls builtin configuration
         extra_args = {
           "--config-path",
-          vim.fn.expand("~/.config/astro-config/tool-config/markdownlint.yaml")
+          vim.fn.expand "~/.config/astronvim-config/tool-config/markdownlint.yaml",
         },
       },
     }
