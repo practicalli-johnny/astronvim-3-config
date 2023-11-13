@@ -1,5 +1,9 @@
 # Unreleased
 
+## Changed
+- init: `clojure_lsp` name corrected for Clojure LSP server
+- init: remove zipPlugin from disabled_plugins so `gd` jumps to function definitions in jar files
+
 # 2023-07-21
 ## Added
 - community: "astrocommunity.color.ccc-nvim" color picker and highlighter plugin 

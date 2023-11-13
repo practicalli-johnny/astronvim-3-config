@@ -67,7 +67,8 @@ return {
     performance = {
       rtp = {
         -- customize default disabled vim plugins
-        disabled_plugins = { "tohtml", "gzip", "matchit", "zipPlugin", "netrwPlugin", "tarPlugin" },
+        -- "zipPlugin" removed from disabled_plugins so `gd` jumps to function definitions in jar files
+        disabled_plugins = { "tohtml", "gzip", "matchit", "netrwPlugin", "tarPlugin" },
       },
     },
   },
