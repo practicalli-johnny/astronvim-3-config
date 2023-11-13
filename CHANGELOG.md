@@ -3,6 +3,7 @@
 # 2023-11-13
 ## Added
 - option: configure neovide to use fira code font size 20 
+- community: configure parinfer with alternative mode, smart, paredit, indent (default)
 
 ## Changed
 - init: `clojure_lsp` name corrected for Clojure LSP server

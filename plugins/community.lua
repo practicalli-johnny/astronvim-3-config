@@ -73,6 +73,16 @@ return {
   -- Packs
   -- Treesitter: clojure , Lsp: clojure-lsp, Lint/format:
   { import = "astrocommunity.pack.clojure" },
+  -- Configure parinfer with different mode, i.e. paren, smart, indent (default)
+  -- {
+  --   "gpanders/nvim-parinfer",
+  --   ft = { "clojure" },
+  --   config = function()
+  --     vim.g.parinfer_force_balance = true
+  --     vim.g.parinfer_comment_chars = ";;"
+  --     vim.g.parinfer_mode = "paren"
+  --   end,
+  -- },
   -- Treesitter: dockerfile , Lsp: dockerls & docker_compose_language_service, Lint/format: hadolint
   { import = "astrocommunity.pack.docker" },
   -- Treesitter: json & jsonc, Lsp: jsonls, Lint/format: stylua
