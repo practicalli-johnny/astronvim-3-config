@@ -4,6 +4,7 @@
 ## Added
 - option: configure neovide to use fira code font size 20 
 - community: configure parinfer with alternative mode, smart, paredit, indent (default)
+- core: set `log level 3` to hide file write notifications - default log level is 5
 
 ## Changed
 - init: `clojure_lsp` name corrected for Clojure LSP server
