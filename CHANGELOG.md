@@ -10,6 +10,7 @@
 - init: `clojure_lsp` name corrected for Clojure LSP server
 - init: remove zipPlugin from disabled_plugins so `gd` jumps to function definitions in jar files
 - init: show configuration to use an external clojure-lsp server rather than one managed by mason
+- user: set filetype to markdown for allen-mack/nvim-table-md plugin
 
 # 2023-07-21
 ## Added

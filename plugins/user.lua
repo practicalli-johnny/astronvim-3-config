@@ -22,5 +22,6 @@ return {
     -- Format markdown tables
     -- https://github.com/allen-mack/nvim-table-md
     "allen-mack/nvim-table-md",
-  }
+    ft = { "markdown" },
+  },
 }
