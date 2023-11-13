@@ -1,5 +1,9 @@
 # Unreleased
 
+# 2023-11-13
+## Added
+- option: configure neovide to use fira code font size 20 
+
 ## Changed
 - init: `clojure_lsp` name corrected for Clojure LSP server
 - init: remove zipPlugin from disabled_plugins so `gd` jumps to function definitions in jar files
