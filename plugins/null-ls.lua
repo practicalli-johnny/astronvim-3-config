@@ -12,12 +12,15 @@ return {
       -- null_ls.builtins.formatting.stylua,
       -- null_ls.builtins.formatting.prettier,
 
+      null_ls.builtins.diagnostics.alex.with {
+        -- pass arguments to modify/override the null-ls builtin configuration
+        filetypes = { "markdown" },
+        extra_args = { "--config-path", vim.fn.expand "~/.config/astronvim-user/tool-config/alexrc.yaml" },
+      },
       null_ls.builtins.formatting.markdownlint.with {
         -- pass arguments to modify/override the null-ls builtin configuration
-        extra_args = {
-          "--config-path",
-          vim.fn.expand "~/.config/astronvim-config/tool-config/markdownlint.yaml",
-        },
+        filetypes = { "markdown" },
+        extra_args = { "--config-path", vim.fn.expand "~/.config/astronvim-user/tool-config/markdownlint.yaml" },
       },
     }
     return config -- return final config table
