@@ -11,6 +11,9 @@
 - init: remove zipPlugin from disabled_plugins so `gd` jumps to function definitions in jar files
 - init: show configuration to use an external clojure-lsp server rather than one managed by mason
 - user: set filetype to markdown for allen-mack/nvim-table-md plugin
+- null-ls: set config files for markdownlint and alex
+- core: show hidden files in neotree by default
+
 
 # 2023-07-21
 ## Added
