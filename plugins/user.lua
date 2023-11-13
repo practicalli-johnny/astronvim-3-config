@@ -9,9 +9,11 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+
+  -- conflicts with AstroNvim keys for resize vertical split
   {
     "mg979/vim-visual-multi",
-      event = "User AstroFile",
+    event = "User AstroFile",
     -- lazy = false,
     -- lazy load on key binding
     -- keys = "gm",
