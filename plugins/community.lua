@@ -17,6 +17,11 @@ return {
   -- ----------------------------------------------
 
   -- ----------------------------------------------
+  -- code runner
+  -- Overseer task runner & job management
+  { import = "astrocommunity.code-runner.overseer-nvim" },
+
+  -- ----------------------------------------------
   -- color
   -- color picker and highlighter
   { import = "astrocommunity.color.ccc-nvim" },

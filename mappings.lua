@@ -61,6 +61,10 @@ return {
     ["<leader>gn"] = { name = " Neogit" }, -- Neogit menu
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+
+    -- Code Runner
+    ["<leader>x"] = { name = "☑ Tasks" },
+    ["<leader>xo"] = { "<cmd>OverseerRun<cr>", desc = "⚙ Overseer Run" },
   },
   t = {
     -- setting a mapping to false will disable it

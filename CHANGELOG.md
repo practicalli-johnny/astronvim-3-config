@@ -1,4 +1,6 @@
 # Unreleased
+## Added
+- community: overseer task manager for makefile and other tasks, leader x tasks mappings
 
 # 2023-11-13
 ## Added
