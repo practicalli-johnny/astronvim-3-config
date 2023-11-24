@@ -3,6 +3,7 @@
 - community: overseer task manager for makefile and other tasks, leader x tasks mappings
 - community: add spectre plugin for project wide search and replace
 - snippet: journal post header markdown snippet
+- snippet: mkdocs admonition warning for work in progress
 
 # 2023-11-13
 ## Added

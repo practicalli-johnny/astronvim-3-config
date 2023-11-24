@@ -1,4 +1,11 @@
 {
+  "mkdocs admonition warning": {
+    "prefix": "mkdocs-admonition-warning-draft",
+    "body": [
+      "!!! WARNING \"Initial draft - feedback welcome\""
+    ],
+    "description": "MkDocs Admonition Warning Draft"
+  },
   "mkdocs button tag": {
     "prefix": "mkdocs-button",
     "body": [
