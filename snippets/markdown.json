@@ -89,5 +89,22 @@
       "![${1:alternative text}](https://raw.githubusercontent.com/practicalli/graphic-design/live/${2:URL}#only-dark${3}){align=left${4} loading=lazy style=\"height:150px;width:150px\"}"
     ],
     "description": "MkDocs Image GitHub form"
+  },
+  "post header": {
+    "prefix": "post-header",
+    "body": [
+      "---
+title: Day 98 - 4Clojure
+date: 2018-12-21
+categories:
+  - 100daysofcode
+---
+
+**Thoughts for today**
+         
+
+<!-- more -->"
+    ],
+    "description": "post-header"
   }
 }
