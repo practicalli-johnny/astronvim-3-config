@@ -4,6 +4,7 @@
 - community: add spectre plugin for project wide search and replace
 - snippet: journal post header markdown snippet
 - snippet: mkdocs admonition warning for work in progress
+- tools: add alex config with ignored words
 
 # 2023-11-13
 ## Added
