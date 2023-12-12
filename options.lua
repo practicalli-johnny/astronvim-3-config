@@ -9,8 +9,8 @@ return {
     wrap = true,           -- sets vim.opt.wrap
     -- showtabline = 0,    -- sets vim.opt.showtabline - zero hides tabs
     timeoutlen = 420,
-    -- neovide font
-    guifont = "Fira Code:h20",
+    -- neovide font family & size
+    guifont = "Fira Code:h16",
   },
   g = {
     mapleader = " ",                 -- sets vim.g.mapleader

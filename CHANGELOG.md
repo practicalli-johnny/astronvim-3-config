@@ -5,6 +5,8 @@
 - snippet: journal post header markdown snippet
 - snippet: mkdocs admonition warning for work in progress
 - tools: add alex config with ignored words
+- options: set font family and size explicitly for Neovide
+
 
 # 2023-11-13
 ## Added
