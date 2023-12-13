@@ -6,6 +6,7 @@
 - snippet: mkdocs admonition warning for work in progress
 - tools: add alex config with ignored words
 - options: set font family and size explicitly for Neovide
+- snippet: update post-header for weekly update
 
 
 # 2023-11-13

@@ -101,17 +101,24 @@
     "prefix": "post-header",
     "body": [
       "---
-title: Day 98 - 4Clojure
-date: 2018-12-21
+title: 
+date: 2023-12-01
 categories:
-  - 100daysofcode
+  - practicalli
 ---
 
-**Thoughts for today**
-         
+**Thoughts for the week**
+
 
 <!-- more -->"
     ],
     "description": "post-header"
+  },
+  "mkdocs key form": {
+    "prefix": "mkdocs-key-form",
+    "body": [
+      "++${0}++"
+    ],
+    "description": "MkDocs Key form"
   }
 }
