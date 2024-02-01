@@ -99,5 +99,7 @@ return {
     --   callback = function() vim.bo.commentstring = ";; %s" end,
     --   desc = "Lisp style line comment",
     -- })
+    -- ClojureDart files as Clojure file type for highlighting
+    vim.cmd "au! BufRead,BufNewFile *.cljd setfiletype clojure"
   end,
 }

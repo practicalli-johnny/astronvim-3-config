@@ -7,6 +7,7 @@
 - tools: add alex config with ignored words
 - options: set font family and size explicitly for Neovide
 - snippet: update post-header for weekly update
+- init: treat ClojureDart .cljd files as Clojure files (syntax highlighting)
 
 
 # 2023-11-13
