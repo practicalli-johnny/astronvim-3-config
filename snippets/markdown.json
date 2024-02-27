@@ -69,6 +69,13 @@
     ],
     "description": "MkDocs link globe icon"
   },
+  "mkdocs icon mastodon": {
+    "prefix": "mkdocs-icon-mastodon",
+    "body": [
+      ":fontawesome-brands-mastodon:${0}"
+    ],
+    "description": "MkDocs link mastodon icon"
+  },
   "mkdocs icon youtube": {
     "prefix": "mkdocs-icon-youtube",
     "body": [

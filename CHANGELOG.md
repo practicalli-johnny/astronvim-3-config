@@ -1,5 +1,9 @@
 # Unreleased
 
+## Added
+- snippet: mkdocs link icon for mastodon social media network
+
+
 # 2024-02-27
 ## Added
 - community: overseer task manager for makefile and other tasks, leader x tasks mappings
