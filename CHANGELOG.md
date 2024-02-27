@@ -3,6 +3,9 @@
 ## Added
 - snippet: mkdocs link icon for mastodon social media network
 
+## Changed
+- snippet: mkdocs post footer tags author defaults
+
 
 # 2024-02-27
 ## Added
