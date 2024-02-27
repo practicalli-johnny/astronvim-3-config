@@ -1,4 +1,6 @@
 # Unreleased
+
+# 2024-02-27
 ## Added
 - community: overseer task manager for makefile and other tasks, leader x tasks mappings
 - community: add spectre plugin for project wide search and replace
@@ -9,6 +11,8 @@
 - snippet: update post-header for weekly update
 - init: treat ClojureDart .cljd files as Clojure files (syntax highlighting)
 
+## Changed
+- astronvim: updates from user_example template repository - luacheck & neoconf config
 
 # 2023-11-13
 ## Added

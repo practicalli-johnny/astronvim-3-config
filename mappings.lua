@@ -10,6 +10,18 @@ return {
   -- first key is the mode
   n = {
     -- second key is the lefthand side of the map
+
+    -- Example mappings
+    -- L = {
+    --   function() require("astronvim.utils.buffer").nav(vim.v.count > 0 and vim.v.count or 1) end,
+    --   desc = "Next buffer",
+    -- },
+    -- H = {
+    --   function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
+    --   desc = "Previous buffer",
+    -- },
+
+    -- Toggle last open buffer
     ["<leader><tab>"] = { "<cmd>b#<cr>", desc = "Last tab" },
 
     -- Save prompting for file name
