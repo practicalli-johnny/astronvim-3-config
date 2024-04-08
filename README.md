@@ -1,14 +1,10 @@
-# Practicalli AstroNvim User Configuration
+# Use [practicalli/astronvim-user-config](https://github.com/practicalli/astronvim-user-config)
 
 An AstroNvim user configuration for [Practicalli Neovim](https://practical.li/neovim/), providing a Clojure REPL workflow, rich Git and GitHub clients and easy management of plugins and tools.
 
-# AstroNvim version 3 only
-
 AstroNvim version 4 has just been released and requires a significant change to the Practicalli config.
 
-[practicalli/astronvim-user-config](https://github.com/practicalli/astronvim-user-config) repository is under development, although already provides the essential Clojure development tools.
-
-Once the new configuration is established, this configuration will be archived.
+[practicalli/astronvim-user-config](https://github.com/practicalli/astronvim-user-config) is the recommended configuration by Practicalli, the practicalli/astro-config repository will be archived.
 
 
 ## 🛠️ Installation
